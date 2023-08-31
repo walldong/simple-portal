@@ -4,6 +4,7 @@ import './MainHeader.less';
 
 
 const { Header } = Layout;
+// create a function transform tree to list
 
 const MainHeader = () => (
 	<Header>
