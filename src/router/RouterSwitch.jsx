@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 
-import { BUSINESS_ROUTES } from '../common/routes';
+import { BUSINESS_ROUTES } from '../common/routers';
 
 const RouterSwitch = () => {
     const routes = Object.keys(BUSINESS_ROUTES).map(routeKey => BUSINESS_ROUTES[routeKey])

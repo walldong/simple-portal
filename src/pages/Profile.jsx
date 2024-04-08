@@ -1,7 +1,6 @@
 import { React, Component } from "react";
 
-
-export default class Content2 extends Component {
+class Profile extends Component {
     constructor(props) {
         super(props)
         this.state={
@@ -11,7 +10,9 @@ export default class Content2 extends Component {
     }
     render() {
         return <div>
-            Content2
+            Profile
         </div>
     }
 }
+
+export default Profile;
